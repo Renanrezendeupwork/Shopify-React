@@ -1,0 +1,48 @@
+.template-page {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title {
+  font-size: 3.4rem;
+  text-align: center;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+  margin: 3rem 0 2rem;
+  line-height: 1.2em;
+  font-size: 3.3rem;
+  font-family: 'MillerDisplay Light';
+}
+
+.page-content p {
+    font-size: 16px;
+    margin: 0.5rem 0 1.5rem 0;
+    line-height: 3.4rem;
+}
+
+.page-content ul{
+    padding-left: 2rem;
+    margin: 4rem 0 5rem;
+}
+
+@media (min-width: 980px) {
+  .page-content h1,
+  .page-content h2,
+  .page-content h3,
+  .page-content h4,
+  .page-content h5,
+  .page-content h6 {
+    margin: 4.5rem 0 3.3rem;
+  }
+
+  .page-content p {
+    margin-bottom: 2.8rem;
+    line-height: 3rem;
+  }
+}
